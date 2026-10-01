@@ -1,0 +1,23 @@
+artifact_path: file:///E:/SKILLS/predictive-maintenance-cmapss/predictive-maintenance-cmapss/mlruns/1/models/m-6cc440a54152451981e05bf5fd2752e0/artifacts
+flavors:
+  python_function:
+    config:
+      device: null
+    data: data
+    env:
+      conda: conda.yaml
+      virtualenv: python_env.yaml
+    loader_module: mlflow.pytorch
+    pickle_module_name: mlflow.pytorch.pickle_module
+    python_version: 3.11.7
+  pytorch:
+    code: null
+    model_data: data
+    pytorch_version: 2.10.0+cpu
+mlflow_version: 3.9.0
+model_id: m-6cc440a54152451981e05bf5fd2752e0
+model_size_bytes: 223169
+model_uuid: m-6cc440a54152451981e05bf5fd2752e0
+prompts: null
+run_id: 68d4b3bad2e044968097d47b273b8f44
+utc_time_created: '2026-02-15 22:14:15.489826'
